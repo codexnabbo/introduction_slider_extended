@@ -265,11 +265,11 @@ IntroductionSlider(
 
 # Report bugs or issues
 
-You are welcome to open a _[ticket](https://github.com/codexnabbo/introduction_slider/issues)_ on github if any problems arise. New ideas are always welcome.
+You are welcome to open a _[ticket](https://github.com/codexnabbo/introduction_slider_extended/issues)_ on github if any problems arise. New ideas are always welcome.
 
 # Copyright and License
 
-> Copyright © 2024 Riccardo Pasquetto. Licensed under the _[MIT LICENSE](https://github.com/codexnabbo/introduction_slider/blob/main/LICENSE)_.
+> Copyright © 2024 Riccardo Pasquetto. Licensed under the _[MIT LICENSE](https://github.com/codexnabbo/introduction_slider_extended/blob/main/LICENSE)_.
 
 ### Become a sponsor
 

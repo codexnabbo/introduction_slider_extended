@@ -44,7 +44,6 @@ class Skip {
   });
 }
 
-
 class Next {
   /// Next button's child widget.
   final Widget child;
@@ -76,7 +75,7 @@ class Done {
   /// which resolve to different values depending on the button's state.
   final ButtonStyle? style;
 
-  const Done ({
+  const Done({
     this.style,
     required this.child,
   });

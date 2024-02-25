@@ -101,8 +101,6 @@ class _IntroductionSliderState extends State<IntroductionSlider> {
   Widget build(BuildContext context) {
     /// Bool used to see if you are in the last page
     final lastIndex = widget.initialPage == widget.items.length - 1;
-    /// Number of the last page
-    final lastPage = widget.items.length - 1;
 
     return Scaffold(
       body: Stack(
@@ -169,19 +167,18 @@ class _IntroductionSliderState extends State<IntroductionSlider> {
           Positioned(
             top: 80,
             right: 30,
-            child:
-            (widget.items.length <= 2)
+            child: (widget.items.length <= 2)
                 ? const SizedBox()
-              : (lastIndex)
-                ? const SizedBox()
-                : TextButton(
-                onPressed: () => pageController.animateToPage(widget.items.length -1,
-                duration: widget.skip!.animationDuration!,
-                curve: widget.skip!.curve!
-              ),
-              style: widget.skip!.style,
-              child: widget.skip!.child,
-            ),
+                : (lastIndex)
+                    ? const SizedBox()
+                    : TextButton(
+                        onPressed: () => pageController.animateToPage(
+                            widget.items.length - 1,
+                            duration: widget.skip!.animationDuration!,
+                            curve: widget.skip!.curve!),
+                        style: widget.skip!.style,
+                        child: widget.skip!.child,
+                      ),
           ),
           Positioned(
             bottom: 35,
